@@ -9,7 +9,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.0</version>
+        <version>3.3.4</version>
         <relativePath/>
     </parent>
 
@@ -35,7 +35,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>3.1.0</version> <!-- Align with the parent version -->
+                <version>3.3.4</version> <!-- Align with the parent version -->
                 <configuration>
                     <mainClass>com.example.springmongo.SpringBootMongoDockerApplication</mainClass>
                 </configuration>
